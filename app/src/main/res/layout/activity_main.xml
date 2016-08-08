@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.k.touchtest.MainActivity">
+    <com.example.k.touchtest.Custom_ViewGroup
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/a"
+        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/b"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/d"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/c"
+            />
+</com.example.k.touchtest.Custom_ViewGroup>
+</RelativeLayout>
